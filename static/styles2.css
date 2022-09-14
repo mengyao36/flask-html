@@ -1,10 +1,10 @@
 /* Style the header */
 header {
-    background-color: #666;
+    background-color: rgb(231, 173, 15);
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: rgb(0, 68, 23);
   }
   
 /* Create two columns/boxes that floats next to each other */
@@ -12,7 +12,7 @@ nav {
 float: left;
 width: 30%;
 height: 300px; /* only for demonstration, should be removed */
-background: #ccc;
+background: #f1f1f1;
 padding: 20px;
 }
   
@@ -23,7 +23,7 @@ padding: 0;
 }
   
 article {
-float: left;
+float: center;
 padding: 20px;
 width: 70%;
 background-color: #f1f1f1;
@@ -51,4 +51,12 @@ nav, article {
     width: 100%;
     height: auto;
 }
+}
+
+/*Button edit*/
+.button1 {background-color: #1843b9;
+          color: aliceblue;
+}
+.button2 {background-color: #5e0e61;
+          color:aliceblue
 }
